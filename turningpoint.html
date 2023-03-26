@@ -1,0 +1,383 @@
+<!doctype html>
+<html>
+    <head>
+        <title>turning point</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=0.1">
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <style>
+            body{
+                background-color: rgb(86, 86, 86);
+            }
+            #rare{
+               
+                position: responsive;
+                width: 100vw;
+                top: 20vh;
+                right: 45vw;
+                border-radius: 95% 80% 80% 25%;
+                z-index: -90;
+                opacity: 1;
+                cursor: url('magnifier1.png') auto; 
+            
+            }
+            #ice{
+               
+               position: absolute;
+               width: 20vw;
+               top: 30vh;
+               right: 45vw;
+               border-radius: 95% 80% 80% 45%;
+               z-index: 20;
+               opacity: 0.8;
+               transform: rotate(70deg);
+               cursor: url('magnifier2.png'), auto; 
+           
+           } 
+           
+           
+          
+           #r00{
+            position: fixed;
+            top: 20px;
+            right: 90px;
+            width: 300px;
+            opacity: 1;
+            z-index: 30;
+            cursor: not-allowed; 
+           }
+           #r0{
+            position: fixed;
+            top: 200px;
+            right: 900px;
+            width: 300px;
+            opacity: 1;
+            z-index: 31;
+            cursor: not-allowed; 
+           }
+           #r1{
+            position: fixed;
+            top: 600px;
+            right: 1100px;
+            width: 280px;
+            opacity: 1;
+            z-index: 32;
+            cursor: not-allowed; 
+           }
+           #r2{
+            position: fixed;
+            top: 0px;
+            right: 1150px;
+            width: 400px;
+            opacity: 1;
+            z-index: 33;
+            cursor: not-allowed; 
+           }
+           #r3{
+            position: fixed;
+            top: 650px;
+            right: 700px;
+            width: 120px;
+            opacity: 1;
+            z-index: 34;
+            cursor: not-allowed; 
+           }
+           #r4{
+            position: fixed;
+            top: 200px;
+            right: 1800px;
+            width: 240px;
+            opacity: 1;
+            z-index: 35;
+            cursor: not-allowed; 
+           }
+           
+           #r7{
+            position: fixed;
+            top: 400px;
+            right: 300px;
+            width: 150px;
+            opacity: 1;
+            z-index: 38;
+            cursor: not-allowed; 
+           }
+           #r8{
+            position: fixed;
+            top: 700px;
+            right: 300px;
+            width: 270px;
+            opacity: 1;
+            z-index: 39;
+            cursor: not-allowed; 
+           }
+           #r9{
+            position: fixed;
+            top: 700px;
+            right: 300px;
+            width: 270px;
+            opacity: 1;
+            z-index: 40;
+            cursor: not-allowed; 
+           }
+           #r10{
+            position: fixed;
+            top: 100px;
+            right: 600px;
+            width: 220px;
+            opacity: 1;
+            z-index: 41;
+            cursor: not-allowed; 
+           }
+           #r11{
+            position: fixed;
+            top: 700px;
+            right: 300px;
+            width: 270px;
+            opacity: 1;
+            z-index: 42;
+            cursor: not-allowed; 
+           }
+           #r12{
+            position: fixed;
+            top: 650px;
+            right: 820px;
+            width: 270px;
+            opacity: 1;
+            z-index: 43;
+            cursor: not-allowed; 
+           }
+           #r13{
+            position: fixed;
+            top: 790px;
+            right: 800px;
+            width: 190px;
+            opacity: 1;
+            z-index: 44;
+            cursor: not-allowed; 
+           }
+           #r14{
+            position: fixed;
+            top: 70px;
+            right: 500px;
+            width: 40px;
+            opacity: 1;
+            z-index: 45;
+            cursor: not-allowed; 
+           }
+           #r15{
+            position: fixed;
+            top: 300px;
+            right: 550px;
+            width: 100px;
+            opacity: 1;
+            z-index: 45;
+            cursor: not-allowed; 
+           }
+           #cursor2{
+            position: fixed;
+            top: 800px;
+            right: 10px;
+            width: 160px;
+            opacity: 1;
+            z-index: 45;
+            cursor: progress; 
+           }
+           #r16{
+            position: fixed;
+            top: 40px;
+            right: 500px;
+            width: 210px;
+            opacity: 1;
+            z-index: 45;
+            cursor: not-allowed; 
+           }
+           #r17{
+            position: fixed;
+            top: 7px;
+            right: 800px;
+            width: 200px;
+            opacity: 1;
+            z-index: 45;
+            cursor: not-allowed; 
+           }
+           
+           #p1{
+            position: fixed;
+            top: 90px;
+            right: 230px;
+            width: 80px;
+            opacity: 1;
+            z-index: 45;
+            border-radius: 95% 80% 80% 25%;
+            cursor: not-allowed; 
+           }
+           #p2{
+            position: fixed;
+            top: 40px;
+            right: 500px;
+            width: 100px;
+            opacity: 1;
+            z-index: 45;
+            border-radius: 35% 70% 50% 95%;
+            cursor: not-allowed; 
+           }
+           #p3{
+            position: fixed;
+            top: 550px;
+            right: 100px;
+            width: 100px;
+            opacity: 1;
+            z-index: 45;
+            border-radius: 75% 40% 30% 75%;
+            cursor: not-allowed; 
+           }
+           #t1{
+            position: fixed;
+            top: 350px;
+            right: 200px;
+            width: 60px;
+            opacity: 1;
+            z-index: 45;
+            cursor: not-allowed;  
+           }
+           #t2{
+            position: fixed;
+            top: 490px;
+            right: 900px;
+            width: 40px;
+            opacity: 1;
+            z-index: 45;
+            cursor: not-allowed;  
+           }
+           #t3{
+            position: fixed;
+            top: 700px;
+            right: 600px;
+            width: 50px;
+            opacity: 1;
+            z-index: 45;
+            cursor: not-allowed;  
+           }
+           
+            
+            
+        </style>
+    </head>
+    <body>
+        <div id="imagess">
+        <img class="dia" id="r00" src="rare/r00.jpg">
+        <img class="dia" id="r0" src="rare/r0.png">
+        <img class="dia" id="r1" src="rare/r1.png">
+        <img class="dia" id="r2" src="rare/r2.png">
+        <img class="dia" id="r3" src="rare/r3.png">
+        <img class="dia" id="r4" src="rare/r4.png">
+        
+        <img class="dia" id="r7" src="rare/r7.png">
+        <img class="dia" id="r8" src="rare/r8.png">
+        <img class="dia" id="r9" src="rare/r9.png">
+        <img class="dia" id="r10" src="rare/r10.png">
+        <img class="dia" id="r11" src="rare/r11.png">
+        <img class="dia" id="r12" src="rare/r12.png">
+        <img class="dia" id="r13" src="rare/r13.png">
+        <img class="dia" id="r14" src="rare/r14.png">
+        <img class="dia" id="r15" src="rare/r15.png">
+        <img class="dia" id="r16" src="rare/r16.png">
+        <img class="dia" id="r17" src="rare/r17.png">
+        
+        <img class="pic" id="p1" src="rare/p1.jpeg">
+        <img class="pic" id="p2" src="rare/p2.jpeg">
+        <img class="pic" id="p3" src="rare/p3.jpeg">
+        <img class="toy" id="t1" src="rare/t1.png">
+        <img class="toy" id="t2" src="rare/t2.png">
+        <img class="toy" id="t3" src="rare/t3.png">
+    </div>
+       <a href="closure.html"><img class="icon" id="cursor2" src="cursor2.png"></a> 
+        <div id="videos">
+        <video loop controls autoplay muted playsinline style="pointer-events: none;" id="rare" src="rare1.mp4"
+        type="video/mp4"></video>
+        <video loop controls autoplay muted playsinline style="pointer-events: none;" id="ice" src="ice2.mp4"
+        type="video/mp4"></video>
+        <audio id="ambient2" src="ambient2.mp3" loop="loop"></audio>
+    </div>
+    </div>
+   
+        <script>
+       document.getElementById("r00").onclick = function () {
+           document.getElementById("r00").style.width = "20px";
+       };
+       document.getElementById("r0").onclick = function () {
+           document.getElementById("r0").style.width = "20px";
+       };
+       document.getElementById("r1").onclick = function () {
+           document.getElementById("r1").style.width = "20px";
+       };
+       document.getElementById("r2").onclick = function () {
+           document.getElementById("r2").style.width = "20px";
+       };
+       document.getElementById("r3").onclick = function () {
+           document.getElementById("r3").style.width = "20px";
+       };
+       document.getElementById("r4").onclick = function () {
+           document.getElementById("r4").style.width = "20px";
+       };
+       
+       document.getElementById("r7").onclick = function () {
+           document.getElementById("r7").style.width = "20px";
+       };
+       document.getElementById("r8").onclick = function () {
+           document.getElementById("r8").style.width = "20px";
+       };
+       document.getElementById("r9").onclick = function () {
+           document.getElementById("r9").style.width = "20px";
+       };
+       document.getElementById("r10").onclick = function () {
+           document.getElementById("r10").style.width = "20px";
+       };
+       document.getElementById("r11").onclick = function () {
+           document.getElementById("r11").style.width = "20px";
+       };
+       document.getElementById("r12").onclick = function () {
+           document.getElementById("r12").style.width = "20px";
+       };
+       document.getElementById("r13").onclick = function () {
+           document.getElementById("r13").style.width = "20px";
+       };
+       document.getElementById("r14").onclick = function () {
+           document.getElementById("r14").style.width = "20px";
+       };
+       document.getElementById("r15").onclick = function () {
+           document.getElementById("r15").style.width = "20px";
+       };
+       document.getElementById("r16").onclick = function () {
+           document.getElementById("r16").style.width = "20px";
+       };
+       document.getElementById("r17").onclick = function () {
+           document.getElementById("r17").style.width = "20px";
+       };
+       document.getElementById("p1").onclick = function () {
+           document.getElementById("p1").style.width = "20px";
+       };
+       document.getElementById("p2").onclick = function () {
+           document.getElementById("p2").style.width = "20px";
+       };
+       document.getElementById("p3").onclick = function () {
+           document.getElementById("p3").style.width = "20px";
+       };
+       document.getElementById("t1").onclick = function () {
+           document.getElementById("t1").style.width = "20px";
+       };
+       document.getElementById("t2").onclick = function () {
+           document.getElementById("t2").style.width = "20px";
+       };
+       document.getElementById("t3").onclick = function () {
+           document.getElementById("t3").style.width = "20px";
+       };
+       document.getElementById("videos").onclick = function () {
+           document.getElementById("ice").style.width = "20px";
+       };
+       window.onload = function() {
+    document.getElementById("ambient2").play();
+        }
+        </script>
+    </body>
+</html>

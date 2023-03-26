@@ -1,246 +1,425 @@
 <!doctype html>
 <html>
     <head>
-        <title>Tender Winds</title>
-        <link rel="shortcut icon" href="kiwi.png">
-        <meta charset="UTF-8"/> 
+        <title>beginning</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=0.1">
+        <link rel="stylesheet" type="text/css" href="style.css" />
         <style>
-            body{
-                background-color: rgba(174, 174, 174, 0.844);
-                /* white-space:pre; */
-            }
-            #TarkovskyQuote{
-                position: static;
-                color: rgb(46, 46, 46);
-                background-color:#67d26c86;
-                text-shadow: 20px 80px 10px rgb(255, 73, 170);
-                border-right: 10px dotted rgb(255, 255, 255);
-                width: 800px;
-                height: 400px;
-                right: 80px;
-                top: 100px;
-                font-size: 40px;
-                font-family: Helvetica;
-                text-align: center;
-            }
-            #SecondTar{
-                position: static;
-                color: rgb(46, 46, 46);
-                background-color:#e7e7e7;
-                text-shadow: 12px 100px 10px rgb(255, 73, 170);
-                border-left: 10px solid rgb(35, 35, 35);
-                width: 800px;
-                height: 2000px;
-                left: 500px;
-                top: 100px;
-                font-size: 90px;
-                font-family: Garamond;
-                text-align: right;
-            }
-            img{
-                position: absolute;
-                /* bottom: 60px;
-                right: -10px;
-                width: 120px;
-                height: 140px;
-                opacity: 1;
-                border-radius: 15% 58% 30px 5px; */
-            }
-            #blueboy{
+            #transient{
+               
                 position: responsive;
-                top: 500px;
-                right: 0px;
-                width: 400px;
-                /* height: 1400px; */
-                opacity: 1;
-                border-radius: 15% 58% 30px 5px; 
-            }
-            #play{
-                position: responsive;
-                top: 100px;
-                right: 50px;
-                width: 800px;
-                height: 600px;
-                opacity: 0.7;
-                border-radius: 45% 58% 30% 15%; 
-            }
-            #basket{
-                position: responsive;
-                top: 100px;
-                right: 900px;
-                width: 350px;
-                height: 500px;
-                opacity: 0.85;
-                border-radius: 15% 58% 30px 5px; 
-                transition: height 1.5s ease-in;
-            }
-            #basket:hover{
-                height:120vh;
-            }
-            #basketball{
-                position: responsive;
-                top: 500px;
-                right: 1000px;
-                width: 800px;
-                height: 200px;
-                opacity: 1;
-                border-radius: 15% 58% 30px 5px; 
-            }
-            #building{
-                position: responsive;
-                top: 2000px;
-                right: 200px;
-                width: 700px;
-                height: 1000px;
-                opacity: 0.85;
-                border-radius: 15% 58% 30px 5px; 
-            }
-            #castle{
-                position: responsive;
-                top: 100px;
-                right: 70px;
-                width: 500px;
-                height: 230px;
-                opacity: 1;
-                border-radius: 15% 10% 20px 15px; 
-            }
-            #dirt{
-                position: responsive;
-                top: 1900px;
-                right: 100px;
-                width: 1000px;
-                height: 400px;
-                opacity: 1;
-                border-radius: 15% 58% 30px 5px; 
-            }
-            #doll{
-                position: responsive;
-                top: 30px;
-                right: 20px;
-                width: 230px;
-                height: 250px;
-                opacity: 1;
-                border-radius: 15% 58% 30px 5px; 
-            }
-            #door{
-                position: responsive;
-                top: 1200px;
-                right: 150px;
-                width: 490px;
-                height: 230px;
-                opacity: 1;
-                border-radius: 15% 58% 30px 5px; 
-            }
-            #entrance{
-                position: responsive;
-                top: 700px;
-                right: 450px;
-                width: 800px;
-                height: 1000px;
-                opacity: 0.7;
-                border-radius: 15% 58% 30px 5px; 
-            }
-            #tennis{
-                position: responsive;
-                top: 1000px;
-                right: 900px;
-                width: 600px;
-                height: 700px;
-                opacity: 0.85;
-                /* border-radius: 15% 58% 30px 5px;  */
-            }
-            #earth{
-                position: responsive;
-                top: 500px;
-                right: 200px;
-                width: 400px;
-                height: 500px;
-                opacity: 0.85;
-                z-index:1;
-                /* border-radius: 15% 58% 30px 5px;  */
-            }
-            #happyvalley {
-                position: fixed;
-                width: 10vw;
-                top: 2vh;
-                right: 45vw;
-                border-radius: 45% 30% 80% 25%;
-                z-index: 10;
-                opacity: 0.65;
-            }
-            #penquan {
-                position: responsive;
-                width: 90vw;
-                top: 90vh;
+                width: 100vw;
+                top: 20vh;
                 right: 45vw;
                 border-radius: 95% 80% 80% 25%;
-                z-index: 10;
-                opacity: 0.65;
+                z-index: -90;
+                opacity: 1;
+                cursor: pointer; 
+            
+            }
+            
+            #transient2{
+               
+               position: absolute;
+               width: 20vw;
+               top: 30vh;
+               right: 45vw;
+               border-radius: 95% 80% 80% 45%;
+               z-index: 20;
+               opacity: 1;
+               transform: rotate(70deg);
+               cursor: pointer; 
+           
+           } 
+           #transient3{
+               
+               position: absolute;
+               width: 30vw;
+               top: 65vh;
+               right: 80vw;
+               border-radius: 85% 40% 89% 64%;
+               z-index: 22;
+               opacity: 1;
+               transform: rotate(90deg);
+               cursor: pointer; 
+           
+           } 
+           #transient4{
+               
+               position: absolute;
+               width: 20vw;
+               top: 6vh;
+               right: 0vw;
+               transform: rotate(140deg);
+               border-radius: 72% 60% 40% 75%;
+               z-index: 23;
+               opacity: 1;
+               cursor: pointer; 
+           
+           } 
+          
+           #m0{
+            position: fixed;
+            top: 20px;
+            right: 90px;
+            width: 300px;
+            opacity: 1;
+            z-index: 30;
+            cursor: url('magnifier1.png'), auto; 
+           }
+           #m1{
+            position: fixed;
+            top: 200px;
+            right: 900px;
+            width: 300px;
+            opacity: 1;
+            z-index: 31;
+            cursor: url('magnifier1.png'), auto; 
+           }
+           #m2{
+            position: fixed;
+            top: 600px;
+            right: 1100px;
+            width: 280px;
+            opacity: 1;
+            z-index: 32;
+            cursor: url('magnifier1.png'), auto; 
+           }
+           #m3{
+            position: fixed;
+            top: 0px;
+            right: 1150px;
+            width: 400px;
+            opacity: 1;
+            z-index: 33;
+            cursor: url('magnifier1.png'), auto; 
+           }
+           #m4{
+            position: fixed;
+            top: 650px;
+            right: 700px;
+            width: 120px;
+            opacity: 1;
+            z-index: 34;
+            cursor: url('magnifier1.png'), auto; 
+           }
+           #m5{
+            position: fixed;
+            top: 200px;
+            right: 1800px;
+            width: 240px;
+            opacity: 1;
+            z-index: 35;
+            cursor: url('magnifier1.png'), auto; 
+           }
+           #m6{
+            position: fixed;
+            top: 600px;
+            right: 20px;
+            width: 200px;
+            opacity: 1;
+            z-index: 36;
+            cursor: url('magnifier1.png'), auto; 
+           }
+           #m7{
+            position: fixed;
+            top: 700px;
+            right: 300px;
+            width: 270px;
+            opacity: 0.7;
+            z-index: 37;
+            cursor: url('magnifier1.png'), auto; 
+           }
+           #m8{
+            position: fixed;
+            top: 400px;
+            right: 300px;
+            width: 150px;
+            opacity: 1;
+            z-index: 38;
+            cursor: url('magnifier1.png'), auto; 
+           }
+           #m9{
+            position: fixed;
+            top: 700px;
+            right: 300px;
+            width: 270px;
+            opacity: 1;
+            z-index: 39;
+            cursor: url('magnifier1.png'), auto; 
+           }
+           #m10{
+            position: fixed;
+            top: 700px;
+            right: 300px;
+            width: 270px;
+            opacity: 1;
+            z-index: 40;
+            cursor: url('magnifier1.png'), auto; 
+           }
+           #m11{
+            position: fixed;
+            top: 100px;
+            right: 600px;
+            width: 220px;
+            opacity: 1;
+            z-index: 41;
+            cursor: url('magnifier1.png'), auto; 
+           }
+           #m12{
+            position: fixed;
+            top: 700px;
+            right: 300px;
+            width: 270px;
+            opacity: 1;
+            z-index: 42;
+            cursor: url('magnifier1.png'), auto; 
+           }
+           #f1{
+            position: fixed;
+            top: 650px;
+            right: 820px;
+            width: 270px;
+            opacity: 1;
+            z-index: 43;
+            cursor: url('magnifier1.png'), auto; 
+           }
+           #f2{
+            position: fixed;
+            top: 790px;
+            right: 800px;
+            width: 190px;
+            opacity: 1;
+            z-index: 44;
+            cursor: url('magnifier1.png'), auto; 
+           }
+           #grass{
+            position: fixed;
+            top: 70px;
+            right: 500px;
+            width: 40px;
+            opacity: 1;
+            z-index: 45;
+            cursor: url('magnifier1.png'), auto; 
+           }
+           #fire{
+            position: fixed;
+            top: 300px;
+            right: 550px;
+            width: 100px;
+            opacity: 1;
+            z-index: 45;
+            cursor: url('magnifier1.png'), auto; 
+           }
+           #cursor1{
+            position: fixed;
+            top: 800px;
+            right: 10px;
+            width: 150px;
+            opacity: 1;
+            z-index: 45;
+            cursor: help; 
+           }
 
-            }
-            #goodreads:link{
-                color: black;
-                text-decoration:none;
-            }
-            #goodreads:visited{
-                color:green;
-                text-decoration:none;
-            }
-            #goodreads:hover{
-                color:rgb(4, 45, 251);
-                font-style:italic;
-                text-shadow: 12px 10px 10px rgb(228, 228, 228);
-                letter-spacing:20px;
-                left: 200px;
-                font-family:Georgia, 'Times New Roman', Times, serif;
-            }
-            #goodreads:active{
-                color:blue;
-            }
-            .Quotes{
-                color:red;
-            }
-            .first{
-                /* opacity:1; */
-                transition: opacity 1s ease-in-out;
-            }
-            .first:hover{
-                filter:invert(80%);
-                opacity:0.3;
-            }
-            #helpless{
-                font-family: Georgia;
-                font-style: italic;
-            }
-
+           
+           #comet{
+            position: fixed;
+            top: 40px;
+            right: 500px;
+            width: 210px;
+            opacity: 1;
+            z-index: 45;
+            cursor: url('magnifier1.png'), auto; 
+           }
+           #comet1{
+            position: fixed;
+            top: 7px;
+            right: 800px;
+            width: 200px;
+            opacity: 1;
+            z-index: 45;
+            cursor: url('magnifier1.png'), auto; 
+           }
+           #comet2{
+            position: fixed;
+            top: 550px;
+            right: 500px;
+            width: 190px;
+            opacity: 1;
+            z-index: 45;
+            cursor: url('magnifier1.png'), auto; 
+           }
+           #comet3{
+            position: fixed;
+            top: 250px;
+            right: 300px;
+            width: 150px;
+            opacity: 1;
+            z-index: 45;
+            cursor: url('magnifier1.png'), auto; 
+           }
+           #comet4{
+            position: fixed;
+            top: 400px;
+            right: 500px;
+            width: 300px;
+            opacity: 1;
+            z-index: 45;
+            cursor: url('magnifier1.png'), auto; 
+           }
+           #comet5{
+            position: fixed;
+            top: 550px;
+            right: 100px;
+            width: 100px;
+            opacity: 1;
+            z-index: 45;
+            cursor: url('magnifier1.png'), auto; 
+           }
+           #comet6{
+            position: fixed;
+            top: 350px;
+            right: 200px;
+            width: 60px;
+            opacity: 1;
+            z-index: 45;
+            cursor: url('magnifier1.png'), auto;  
+           }
+           
+            
             
         </style>
     </head>
     <body>
-        <img class="first" id="blueboy" src="blueboy.png">
-        <img id="play" src="play.JPG">
-        <img id="basket" src="basket.png">
-        <img id="basketball" class="first" src="basketball.png">
-        <img id="building" src="building.png">
-        <imd id="castle" src="castle.png">
-        <img id="dirt" src="dirt.png">
-        <a href="https://en.wikipedia.org/wiki/Chaoyang_Park"><img id="doll" src="doll.png"></a>
-        <img id="door" src="door.png">
-        <img id="entrance" src="entrance.png">
-        <img id="tennis" src="tennis.gif">
-        <img id="earth" src="earth.gif">
-        <div class="Quotes" id="TarkovskyQuote">Let <a id="goodreads" href="https://www.goodreads.com/author/quotes/16014.Andrei_Tarkovsky">everything that's been planned come true.</a> Let them believe. And let them have a laugh at their passions. Because what they call passion actually is not some emotional energy, but just the friction between their souls and the outside world.></div>
-        <div class="Quotes" id="SecondTar">And most important, let them believe in themselves.<br> <span id="helpless">Let them be helpless like children</span>, because weakness is a great thing, and strength is nothing.<br> When a man is just born, he is weak and flexible. When he dies, he is hard and insensitive. When a tree is growing, it's tender and pliant. But when it's dry and hard, it dies. Hardness and strength are death's companions. Pliancy and weakness are expressions of the freshness of being. Because what has hardened will never win.></div>
-        <div id="Sculpting" class="Quotes"Modern mass culture, aimed at the consumer, the civilisation of prosthetics, is crippling peoples souls, setting up barriers between man and the crucial questions of his existence, his consciousness of himself as a spiritual being.></div> 
-        <video loop controls autoplay muted id="happyvalley" src="happyvalley.mp4"
+        <img class="diagram" id="m0" src="phenomenon/m0.png">
+        <img class="diagram" id="m1" src="phenomenon/m1.png">
+        <img class="diagram" id="m2" src="phenomenon/m2.png">
+        <img class="diagram" id="m3" src="phenomenon/m3.png">
+        <img class="diagram" id="m4" src="phenomenon/m4.png">
+        <img class="diagram" id="m5" src="phenomenon/m5.png">
+        <img class="diagram" id="m6" src="phenomenon/m6.png">
+        <img class="diagram" id="m7" src="phenomenon/m7.png">
+        <img class="diagram" id="m8" src="phenomenon/m8.png">
+        <img class="diagram" id="m9" src="phenomenon/m9.png">
+        <img class="diagram" id="m10" src="phenomenon/m10.png">
+        <img class="diagram" id="m11" src="phenomenon/m11.png">
+        <img class="diagram" id="m12" src="phenomenon/m12.png">
+        <img class="pic" id="f1" src="phenomenon/f1.png">
+        <img class="pic" id="f2" src="phenomenon/f2.png">
+        <img class="pic" id="grass" src="phenomenon/grass.png">
+        <img class="pic" id="fire" src="phenomenon/fire.png">
+        <img class="pic" id="comet" src="phenomenon/comet.png">
+        <img class="pic" id="comet1" src="phenomenon/comet1.png">
+        <img class="pic" id="comet2" src="phenomenon/comet2.png">
+        <img class="pic" id="comet3" src="phenomenon/comet3.png">
+        <img class="pic" id="comet4" src="phenomenon/comet4.png">
+        <img class="pic" id="comet5" src="phenomenon/comet5.png">
+        <img class="pic" id="comet6" src="phenomenon/comet6.png">
+        <a id="stagetwo" href="turningpoint.html"><img class="icon" id="cursor1" src="cursor1.png"></a>
+        <div id="videos">
+        <video loop controls autoplay muted playsinline style="pointer-events: none;" id="transient" src="Transient.mp4"
         type="video/mp4"></video>
-        <video loop controls autoplay muted id="penquan" src="penquan.mov" type="video/mov"></video>
+        <video loop controls autoplay muted playsinline style="pointer-events: none;" id="transient2" src="Transient2.mp4"
+        type="video/mp4"></video>
+        <video loop controls autoplay muted playsinline style="pointer-events: none;" id="transient3" src="Transient3.mp4"
+        type="video/mp4"></video>
+        <video loop controls autoplay muted playsinline style="pointer-events: none;" id="transient4" src="Transient4.mp4"
+        type="video/mp4"></video>
+        <audio id="ambient1" src="ambient1.mp3" loop="loop"></audio>
+    </div>
+
+        <script>
+        document.getElementById("m0").onclick = function () {
+           alert("don't get burried alive!");
+       };
+       document.getElementById("m1").onclick = function () {
+           alert("Contamination is Collaboration!");
+       };
+       document.getElementById("m2").onclick = function () {
+           alert("this recent history now feels as remote as an abstract future..");
+       };
+       document.getElementById("m3").onclick = function () {
+           alert("Collaboration is Contamination!");
+       };
+       document.getElementById("m4").onclick = function () {
+           alert("it was like being forced into a corner...");
+       };
+       document.getElementById("m5").onclick = function () {
+           alert("every thing must go.");
+       };
+       
+       document.getElementById("m6").onclick = function () {
+           alert("without the membrane of exchange,\nit was pointless to continue...");
+       };
+       document.getElementById("m7").onclick = function () {
+           alert("it might be our last.");
+       };
+       document.getElementById("m8").onclick = function () {
+           alert("time is expiring soon");
+       };
+       document.getElementById("m9").onclick = function () {
+           alert("what does not stand cannot fall");
+       };
+       document.getElementById("m10").onclick = function () {
+           alert("the sun rises");
+       };
+       document.getElementById("m11").onclick = function () {
+           alert("every demolition means the erection of something new");
+       };
+       document.getElementById("m12").onclick = function () {
+           alert("I'm sorry.");
+       }
+       document.getElementById("f1").onclick = function () {
+           alert("...would only exist till sunset on the same day of opening...");
+       };
+       document.getElementById("f2").onclick = function () {
+           alert("intimate because it is real\nother-ness because that is how I feel");
+       };
+       document.getElementById("grass").onclick = function () {
+           alert("they could be shown once\nand meaningless to show again");
+       };
+       document.getElementById("fire").onclick = function () {
+           alert("....24 hours a day, seven days a week....");
+       };
+       document.getElementById("comet").onclick = function () {
+           alert("it's not an easy thing");
+       };
+       document.getElementById("comet1").onclick = function () {
+           alert("oh, I can't go back to that thing I was already doing before.");
+       };
+       document.getElementById("comet2").onclick = function () {
+           alert("maintain a state where we can close up at any time.");
+       };
+       document.getElementById("comet3").onclick = function () {
+           alert("sometimes you're not entirely sure what you want\nbut you know what you don't want.");
+       };
+       document.getElementById("comet4").onclick = function () {
+           alert("so they all started making,\nanywhere and anytime");
+       };
+       document.getElementById("comet5").onclick = function () {
+           alert("..the unspoken thought..");
+       };
+       document.getElementById("comet6").onclick = function () {
+           alert("the sun sets");
+       };
+       document.getElementById("transient").onclick = function () {
+        document.getElementById("transient2").style.width = "20px";
+       };
+       document.getElementById("transient2").onclick = function () {
+           document.getElementById("transient2").style.width = "20px";
+       };
+       document.getElementById("transient3").onclick = function () {
+           document.getElementById("transient3").style.width = "20px";
+       };
+       document.getElementById("transient4").onclick = function() {
+          
+           alert("Don't get burried alive!");
+       };
+       window.onload = function() {
+    document.getElementById("ambient1").play();
+        }
+
+        </script>
     </body>
 </html>
-
-<!-- TEXT SOURCES
-https://www.goodreads.com/author/quotes/16014.Andrei_Tarkovsky 
-https://www.goodreads.com/work/quotes/29036-->
-<!-- GIF SOURCES
-https://media.giphy.com/media/7ZCmbMf3z6iP898BfD/giphy.gif 
-https://giphy.com/stickers/world-earth-X1XORnJ6ErubS-->
